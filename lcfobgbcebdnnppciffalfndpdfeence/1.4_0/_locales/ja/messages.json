@@ -1,0 +1,70 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Aria2とAriaNgに基づくChromeマルチスレッドダウンロード拡張機能"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Camtd - Aria2ダウンロードマネージャ"
+   },
+   "optionsAria2Prc": {
+      "description": "ARIA2 RPC, example：http://localhost:6800/jsonrpc",
+      "message": "ARIA2 RPC, example：http://localhost:6800/jsonrpc"
+   },
+   "optionsBlacklist": {
+      "description": "blacklist",
+      "message": "ブラックリスト"
+   },
+   "optionsBlacklistHint": {
+      "description": "Blacklist URL downloads will not be intercepted",
+      "message": "ブラックリストURLのダウンロードは傍受されません \r\nURLごとに1行、URLはページリンクか実際のダウンロードリンクのいずれかになり、正規表現をサポートします \r\n例:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   },
+   "optionsErrorReg": {
+      "description": "Wrong regular expression:",
+      "message": "間違った正規表現:"
+   },
+   "optionsFileSize": {
+      "description": "The minimum file size to intercept (MB)",
+      "message": "インターセプトする最小ファイルサイズ (MB)"
+   },
+   "optionsFilter": {
+      "description": "filter",
+      "message": "傍受フィルタリング"
+   },
+   "optionsFilterUrls": {
+      "description": "filter urls",
+      "message": "フィルタURLリスト"
+   },
+   "optionsIfIntercept": {
+      "description": "Automatically intercept download tasks to Aria2c,Use Camtd to take over Chrome's default download behavior.",
+      "message": "ダウンロードタスクをAria2cに自動的にインターセプトし、Camtdを使用してChromeのデフォルトのダウンロード動作を引き継ぎます。"
+   },
+   "optionsOff": {
+      "description": "OFF",
+      "message": "クローズド"
+   },
+   "optionsOn": {
+      "description": "ON",
+      "message": "オープン"
+   },
+   "optionsSave": {
+      "description": "Save",
+      "message": "セーブ"
+   },
+   "optionsSaved": {
+      "description": "Saved",
+      "message": "保存された"
+   },
+   "optionsTitle": {
+      "description": "Camtd Setting",
+      "message": "Camtdの設定"
+   },
+   "optionsWhitelist": {
+      "description": "whitelist",
+      "message": "ホワイトリスト"
+   },
+   "optionsWhitelistHint": {
+      "description": "Only whitelist URL downloads will intercept",
+      "message": "ホワイトリストURLのダウンロードのみがインターセプトされます \r\nURLごとに1行、URLはページリンクか実際のダウンロードリンクのいずれかになり、正規表現をサポートします \r\n例:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   }
+}

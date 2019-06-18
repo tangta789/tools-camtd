@@ -1,0 +1,70 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Chrome多線程下載擴展，基於Aria2和AriaNg。"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Camtd - Aria2下載管理器"
+   },
+   "optionsAria2Prc": {
+      "description": "ARIA2 RPC, example：http://localhost:6800/jsonrpc",
+      "message": "ARIA2 RPC, example：http://localhost:6800/jsonrpc"
+   },
+   "optionsBlacklist": {
+      "description": "blacklist",
+      "message": "黑名單"
+   },
+   "optionsBlacklistHint": {
+      "description": "Blacklist URL downloads will not be intercepted",
+      "message": "黑名單內的網址下載將不會被攔截 \r\n壹行壹條網址，網址可以是頁面鏈接也可以是真正的下載鏈接，支持正則表達式 \r\n例子:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   },
+   "optionsErrorReg": {
+      "description": "Wrong regular expression:",
+      "message": "錯誤的正則表達式:"
+   },
+   "optionsFileSize": {
+      "description": "The minimum file size to intercept (MB)",
+      "message": "攔截的文件最小大小 (MB)"
+   },
+   "optionsFilter": {
+      "description": "filter",
+      "message": "攔截過濾"
+   },
+   "optionsFilterUrls": {
+      "description": "filter urls",
+      "message": "過濾網址列表"
+   },
+   "optionsIfIntercept": {
+      "description": "Automatically intercept download tasks to Aria2c,Use Camtd to take over Chrome's default download behavior.",
+      "message": "自動攔截下載任務到Aria2c,使用Camtd接管Chrome的默認下載行為."
+   },
+   "optionsOff": {
+      "description": "OFF",
+      "message": "關閉"
+   },
+   "optionsOn": {
+      "description": "ON",
+      "message": "開啟"
+   },
+   "optionsSave": {
+      "description": "Save",
+      "message": "保存"
+   },
+   "optionsSaved": {
+      "description": "Saved",
+      "message": "已保存"
+   },
+   "optionsTitle": {
+      "description": "Camtd Setting",
+      "message": "Camtd設置"
+   },
+   "optionsWhitelist": {
+      "description": "whitelist",
+      "message": "白名單"
+   },
+   "optionsWhitelistHint": {
+      "description": "Only whitelist URL downloads will intercept",
+      "message": "只有白名單內的網址下載才會被攔截 \r\n壹行壹條網址，網址可以是頁面鏈接也可以是真正的下載鏈接，支持正則表達式 \r\n例子:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "author": "Jaeger \u003CJaegerCode@gmail.com>",
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/default/icon-19.png",
+         "38": "images/default/icon-38.png"
+      },
+      "default_popup": "ui/index.html",
+      "default_title": "__MSG_appName__"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/indicator.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "homepage_url": "https://github.com/jae-jae/camtd",
+   "icons": {
+      "128": "images/default/icon-128.png",
+      "16": "images/default/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtDE8IJNc0GnjR+qnx85f4+n9DTYFUQdkAKYu1V+8p7cWd+FN+ktEaL6WsXY/rRPbDa+Rq4DuET7bQjq/UMa/u7hiKu3MH0xyYe+UHR/BHWgJ6AztmYjsnhkQ0rA4RgAz0w8ie9yt6CMbVXPx2nVvENTxYZnNS84BcAUJl1vvfklJJRJv5C69mTY7YcXvexqprL43JLJlQRBHY3FVvLDmk+43qTQT1W9RjzXDPWiomTce6T0DDc/ulRNn1XPSTYdjOETDtu3Gjmx+5HFVMPob1fsSb3Hl2LGJnMGhj0GclyFtPYhwS+yAndkjT838kYHY17D+u0Hb+yMk0apV36xxWwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "downloads", "\u003Call_urls>", "notifications", "contextMenus", "cookies", "tabs", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4",
+   "web_accessible_resources": [ "images/down-arrow.png" ]
+}

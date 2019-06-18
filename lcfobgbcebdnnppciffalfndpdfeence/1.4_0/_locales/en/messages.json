@@ -1,0 +1,70 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Chrome multi-threaded downloader extension,based on Aria2 and AriaNg."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Camtd - Aria2 Download Manager"
+   },
+   "optionsAria2Prc": {
+      "description": "ARIA2 RPC, example：http://localhost:6800/jsonrpc",
+      "message": "ARIA2 RPC, example：http://localhost:6800/jsonrpc"
+   },
+   "optionsBlacklist": {
+      "description": "blacklist",
+      "message": "Blacklist"
+   },
+   "optionsBlacklistHint": {
+      "description": "Blacklist URL downloads will not be intercepted",
+      "message": "Blacklist URL downloads will not be intercepted \r\nOne line per URL, the URL can be either a page link or a real download link, supporting regular expressions \r\nexample:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   },
+   "optionsErrorReg": {
+      "description": "Wrong regular expression:",
+      "message": "Wrong regular expression:"
+   },
+   "optionsFileSize": {
+      "description": "The minimum file size to intercept (MB)",
+      "message": "The minimum file size to intercept (MB)"
+   },
+   "optionsFilter": {
+      "description": "filter",
+      "message": "Interception filtering"
+   },
+   "optionsFilterUrls": {
+      "description": "filter urls",
+      "message": "Filter URL list"
+   },
+   "optionsIfIntercept": {
+      "description": "Automatically intercept download tasks to Aria2c,Use Camtd to take over Chrome's default download behavior.",
+      "message": "Automatically intercept download tasks to Aria2c,Use Camtd to take over Chrome's default download behavior."
+   },
+   "optionsOff": {
+      "description": "OFF",
+      "message": "OFF"
+   },
+   "optionsOn": {
+      "description": "ON",
+      "message": "ON"
+   },
+   "optionsSave": {
+      "description": "Save",
+      "message": "Save"
+   },
+   "optionsSaved": {
+      "description": "Saved",
+      "message": "Saved"
+   },
+   "optionsTitle": {
+      "description": "Camtd Setting",
+      "message": "Camtd Setting"
+   },
+   "optionsWhitelist": {
+      "description": "whitelist",
+      "message": "Whitelist"
+   },
+   "optionsWhitelistHint": {
+      "description": "Only whitelisted URL downloads will be blocked",
+      "message": "Only whitelist URL downloads will intercept \r\nOne line per URL, the URL can be either a page link or a real download link, supporting regular expressions \r\nexample:\r\npan.baidu.com\r\nhttp(s)?:\\/\\/\\w+.baidupcs.com\\/file\\/"
+   }
+}
